@@ -1,0 +1,43 @@
+.infinite-scroll-component {
+  text-align: center;
+  overflow: hidden !important;
+  max-width: 80% !important;
+  margin: auto !important;
+}
+.images-conatiner {
+}
+img {
+  width: 30%;
+  height: 250px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+img:nth-child(7n) {
+  width: 91%;
+  height: 525px !important;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.nav-bar {
+  height: 70px;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.loco-icon {
+  height: 30px;
+  width: 110px !important;
+  margin-left: 15px;
+}
+.Home {
+  height: 25px;
+  width: 25px;
+  margin-right: 17px;
+}
+.Explore {
+  background-color: black !important;
+  border-radius: 50%;
+}
